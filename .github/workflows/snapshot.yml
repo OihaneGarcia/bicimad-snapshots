@@ -2,7 +2,7 @@ name: bicimad-snapshot
 
 on:
   schedule:
-    - cron: "10 * * * *"      # cada hora, en el minuto 7 (UTC)
+    - cron: "37 * * * *"      # cada hora, en el minuto 7 (UTC)
   workflow_dispatch:          # permite lanzarlo a mano desde la web
 
 permissions:
